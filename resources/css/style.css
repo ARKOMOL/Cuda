@@ -396,6 +396,9 @@ svg.ui-ux circle{
     background-position: center center;
  
 }
+.testmonial-section h2::after{
+    background: #ac5779;
+}
 
  
 .testmonial-section .little-description{
