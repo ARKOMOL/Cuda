@@ -1,0 +1,94 @@
+@media only screen and (max-width:1200px){
+    header{
+        height: 65vh;
+    }
+        .row{
+        margin: 0 15px;
+    }
+}
+
+
+
+@media only screen and (max-width:1024px){
+
+    .hero-text-box{
+        width: 100%;
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .client-photo,
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form{
+        margin-top: 5rem;
+        width: 100%;
+        margin-left: 0;
+    
+    }
+    .mobile-menu span{
+        display: block;
+    }
+}
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width: 49.2%;
+
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+h1{
+    font-size: 3.58rem;
+}
+}
+@media only screen and (max-width:768px){
+    .little-description{
+        margin-left: 0;
+        width:100%;
+    }
+    header{
+        height:50vh ;
+    }
+    h1{
+        font-size: 3.25rem;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:480px){
+    .span_1_of_4{
+        width: 100%;
+
+    }
+    header{
+        height:80vh ;
+    }
+    h1{
+        font-size: 2.6rem;}
+        h2{
+            font-size: 2rem;
+        }
+        h3{
+            font-size: 1.8rem;
+        }
+        .testmonial-section .col:nth-child(1),
+.testmonial-section .col:nth-child(2){
+    margin-top: 4rem;
+}
