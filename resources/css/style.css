@@ -158,6 +158,23 @@ header {
   background: rgba(100, 58, 121, 1);
   border-radius: 0.3rem;
 }
+/* sticky nav */
+.sticky {
+ position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(100, 58, 121, 1);
+    padding: 1rem 0;
+  box-shadow: 0 .3rem rgb(84, 115, 202);
+    z-index: 9999;
+}
+.sticky .logo{
+    margin-top: .2rem;
+}
+.sticky .main-nav{
+    margin-top: .2rem;
+}
 
 .hero-text-box {
   position: absolute;
